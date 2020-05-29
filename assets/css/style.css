@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+
+/* I used google fonts for the font of my text, i then used bootstrap to structure my web page and 
+used a small sample of code from the resume project lessons on the heading for the navbar, with the 
+menu item lists and menu items. I also used the hover.css website for their styling on the navbar 
+items and the styling with the gallery. Apart from those bits of code i tried to complete this off 
+of my own knowledge and a trial and error basis. */
+
+/*------------------------------------------------------------Colours*/
+
+.bg-color-about-us {
+  background-color: #2f4f4f;
+}
+
+.about-us-text-color {
+  color: #ffffff;
+}
+
+.bg-img-dark-slate {
+  background: url("../images/darkslatebg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img-white-slate {
+  background: url("../images/whiteslatebg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*------------------------------------------------------------Heading*/
+
+header {
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.logo {
+  background: url("../images/mpdbuilderslogo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  min-height: 200px;
+}
+
+.list-inline-item:not(:last-child) {
+  margin: 0;
+}
+
+.menucontainer {
+  font-size: 0;
+}
+
+#nav {
+  margin: 0;
+}
+
+#nav li {
+  font-size: 14px;
+  padding: 0;
+}
+
+.menuitem {
+  height: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: slategrey;
+}
+
+.menuitem span {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/*------------------------------------------------------------Hover.css*/
+
+.hvr-underline-from-center::before {
+  background: #b22222;
+  height: 2px;
+}
+
+.hvr-sweep-to-right::before {
+  background: #2f4f4f;
+  opacity: 0.5;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+
+.gallery-hover-text {
+  text-decoration: none;
+  color: transparent;
+}
+
+.gallery-hover-text:hover {
+  font-size: 17px;
+  color: #ffffff;
+  transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+}
+
+/*------------------------------------------------------------Special Paddings, Margins and Text*/
+
+h4 {
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.buffer-top {
+  margin-top: 10px;
+}
+
+/*------------------------------------------------------------About*/
+
+.about-us-section {
+  padding: 30px 30px 30px 30px;
+  float: none;
+}
+
+.about-us-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.about-us-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+/*------------------------------------------------------------Footer*/
+
+.footer-text-styling a,
+h5 {
+  color: slategray;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.vertical-line {
+  border: solid #b22222;
+  padding: 0;
+  padding-top: 20px;
+  width: 1;
+  height: 16px;
+  float: top;
+}
+
+.d-sm-block {
+  display: none;
+}
+
+/*------------------------------------------------------------Gallery*/
+
+.gallery-one {
+  background: url("../images/39christmaspieave.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.gallery-two {
+  background: url("../images/sthelensfrimley.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gallery-three {
+  background: url("../images/56chingfordextension.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.gallery-four {
+  background: url("../images/56chingfordkitchen.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gallery-five {
+  background: url("../images/56chingfordaveliving.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.gallery-six {
+  background: url("../images/2clockhouserd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.gallery-seven {
+  background: url("../images/2clockhousebathroom.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+span {
+  padding: 10px;
+  margin: 0;
+  display: block;
+  height: auto;
+}
+
+/*------------------------------------------------------------Contact*/
+
+.contact-pic {
+  background: url("../images/paulandmickfiller.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  min-height: 300px;
+  max-width: 300px;
+  border-radius: 360%;
+}
+
+.contact-text {
+  font-weight: 500;
+  color: darkslategray;
+  font-size: 20px;
+}
+
+.h4-contact-style {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+.bg-contact-info {
+  background: url("../images/whiteslatebg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 400px;
+}
